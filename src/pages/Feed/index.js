@@ -1,11 +1,15 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
 import { View,Text } from 'react-native';
 
 export default function Feed() {
+    const [feed, setFeed] = useState([]);
+
+    useEffect(() => {
+        async function loadFeed(){
+            const
+        }
+    }, [])
     return (
-        <View>
-            <Text>tentando, pq tudo é aprendizado</Text>
-            <Text> ainda vivo</Text>
-        </View>
+        <View/>
     ); 
 }
